@@ -1,5 +1,7 @@
 CATEST
 ---
+[![Build Status](https://travis-ci.org/Goblin80/CATEST.svg?branch=master)](https://travis-ci.org/Goblin80/CATEST)
+
 Adaptive-Test tailors difficulty of items to the proficiency of examinee.
 
 ![Class Diagram](./docs/svgs/classdiag.svg)
