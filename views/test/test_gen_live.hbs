@@ -69,7 +69,16 @@
     function addChoice()
     {
         var choicediv = document.getElementById('choicediv');
-        choicediv.innerHTML += `<input type="text" class="form-control" id="choice" name="choice" placeholder="Choice goes here">`
+        
+        // choicediv.innerHTML += `<input type="text" class="form-control" id="choice" name="choice" placeholder="Choice goes here">`
+
+        var newChoice = document.createElement("input");
+        newChoice.setAttribute('type', 'text');
+        newChoice.placeholder = "Choice goes here";
+        newChoice.name = "choice";
+        newChoice.className = "form-control";
+
+        choicediv.appendChild(newChoice);
     }
     function addKeyword()
     {
